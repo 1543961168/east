@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-// import homeStore from 'Pages/home/store'
+import homeStore from 'Pages/home/store'
 // import loginStore from 'Pages/login/store'
 // import detailsStore from 'Pages/details/store'
 // import myfileStore from 'Pages/myfile/store'
@@ -13,16 +13,16 @@ import Vuex from 'vuex'
 Vue.use(Vuex)
 
 export default new Vuex.Store({
-  modules: {
-    // homeStore,
-    // loginStore,
-    // detailsStore,
-    // myfileStore,
-    // auctionStore,
-    // communityStore,
-    // goodsStore,
-    // listStore,
-    // messageStore,
-    // registerStore
-  }
+    modules: {
+        homeStore,
+        // loginStore,
+        // detailsStore,
+        // myfileStore,
+        // auctionStore,
+        // communityStore,
+        // goodsStore,
+        // listStore,
+        // messageStore,
+        // registerStore
+    }
 })

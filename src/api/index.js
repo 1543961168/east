@@ -1,10 +1,10 @@
 import request from 'Utils/request'
-import { cateUrl } from './url'
+import { homeSwipeUrl } from './url'
 
-// !获取接口
-// export function cateReq(params){
-//     return request({
-//         url:cateUrl,
-//         data:params
-//     })
-// }
+// 获取home轮播图接口
+export function homeSwipeReq(params) {
+    return request({
+        url: homeSwipeUrl,
+        data: params
+    })
+}

@@ -1,1 +1,1 @@
-// export const cateUrl = './index.php'
+export const homeSwipeUrl = '/ap/api/bannerlist.php'
